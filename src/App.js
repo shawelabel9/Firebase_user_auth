@@ -41,6 +41,7 @@ function App() {
             ? <Register/>
             : <Navigate to='/' replace/>
           } />
+          <Route path='/verify-email' element={<VerifyEmail/>} /> 
         </Routes>  
       </AuthProvider>
   </Router>
